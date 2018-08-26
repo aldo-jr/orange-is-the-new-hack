@@ -1,10 +1,6 @@
 import React from 'react';
 
 export default class Button extends React.Component {
-  componentDidMount() {
-    console.log(this.props)
-  }
-
   render() {
     return (
       <button

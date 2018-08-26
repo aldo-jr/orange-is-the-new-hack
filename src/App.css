@@ -2,7 +2,7 @@
   background: url(./assets/images/we-title-bg.png) center / contain no-repeat;
 }
 
-h1,h2,h3,h4,h5,h6,p,b,a{color:#83807E}
+h1,h2,h3,h4,h5,h6,p,b,a,label{color:#83807E}
 
 
 .btn-we-cta {
@@ -40,3 +40,10 @@ h1,h2,h3,h4,h5,h6,p,b,a{color:#83807E}
 }
 
 
+.divider {
+  display: block;
+  width:100%;
+  height:1px;
+  background:#fff;
+  margin:25px 0;
+}
