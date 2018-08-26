@@ -6,7 +6,7 @@ export default class Feed extends React.Component {
     return (
       <div className="container">
         <div className="row justify-content-center my-4">
-          <h2>Conecte-se</h2>
+          <h2 className='we-title'>Conecte-se</h2>
 
           <div className="col-11">
           <h6 className='text-center'>
@@ -24,7 +24,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">AmarCare</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">Cabelo e Cia</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -54,13 +54,13 @@ export default class Feed extends React.Component {
         <div className="row">
           <div className="col">
             <div className="btn-group btn-group-toggle d-flex" data-toggle="buttons">
-              <label className="btn btn-primary active flex-grow-1">
+              <label className="btn btn-we-secondary active flex-grow-1">
                 <input type="checkbox" name="options" id="option1" defaultChecked /> Veganos
               </label>
-              <label className="btn btn-primary flex-grow-1">
+              <label className="btn btn-we-secondary flex-grow-1">
                 <input type="checkbox" name="options" id="option2" /> Reciclados
               </label>
-              <label className="btn btn-primary flex-grow-1">
+              <label className="btn btn-we-secondary flex-grow-1">
                 <input type="checkbox" name="options" id="option3" /> Plásticos
               </label>
             </div>
@@ -70,13 +70,13 @@ export default class Feed extends React.Component {
         <div className="row mt-2">
           <div className="col">
             <div className="btn-group btn-group-toggle d-flex" data-toggle="buttons">
-              <label className="btn btn-primary active flex-grow-1">
+              <label className="btn btn-we-secondary active flex-grow-1">
                 <input type="checkbox" name="options" id="option4" /> Estética
               </label>
-              <label className="btn btn-primary flex-grow-1">
+              <label className="btn btn-we-secondary flex-grow-1">
                 <input type="checkbox" name="options" id="option5" /> Saúde
               </label>
-                <button className="btn btn-primary flex-grow-1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button className="btn btn-we-secondary flex-grow-1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Outros
                 </button>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -98,7 +98,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">AmarCare</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">Cabelo e Cia</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">AmarCare</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">Cabelo e Cia</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">AmarCare</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ export default class Feed extends React.Component {
               <div className="card-body">
                 <p className="card-text mb-0">Cosmeticos</p>
                 <h5 className="card-title">Cabelo e Cia</h5>
-                <Link to='/detail' className="btn btn-sm btn-primary">Conheça</Link>
+                <Link to='/detail' className="btn btn-sm btn-we-cta">Conheça</Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,42 @@
+.we-title {
+  background: url(./assets/images/we-title-bg.png) center / contain no-repeat;
+}
+
+h1,h2,h3,h4,h5,h6,p,b,a{color:#83807E}
+
+
+.btn-we-cta {
+  color: #fff;
+  background-color: #FF8000;
+  border-color: #FF8000;
+}
+
+.btn-we-cta:hover {
+  color: #fff;
+  background-color: #ED7700;
+  border-color: #ED7700;
+}
+
+.btn-we-cta:focus, .btn-primary.focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-we-secondary {
+  color: #83807E;
+  background-color: #87FCD5;
+  border-color: #87FCD5;
+}
+
+.btn-we-secondary:hover, .btn-we-secondary.active {
+  color: #83807E;
+  background-color: #1EDF9F;
+  border-color: #1EDF9F;
+}
+
+.btn-we-secondary:focus, .btn-primary.focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+

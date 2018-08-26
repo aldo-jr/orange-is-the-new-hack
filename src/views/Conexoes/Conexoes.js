@@ -6,7 +6,7 @@ export default class Conexoes extends React.Component {
     return (
       <div className="container">
         <div className="row justify-content-center my-4">
-          <h2>Conexões</h2>
+          <h2 className='we-title'>Conexões</h2>
         </div>
 
         <div className="row justify-content-between align-items-stretch mb-4">

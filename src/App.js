@@ -15,6 +15,8 @@ import PerfilUsuario from "./views/PerfilUsuario/PerfilUsuario";
 import Feed from "./views/Feed/Feed";
 import Detail from "./views/Detail/Detail";
 import Conexoes from "./views/Conexoes/Conexoes";
+import './App.css';
+import Footer from "./views/Shared/Footer";
 
 class App extends Component {
   render() {
@@ -32,6 +34,8 @@ class App extends Component {
             <Route exact path='/detail' component={Detail}/>
             <Route exact path='/conexoes' component={Conexoes}/>
           </Switch>
+
+          <Footer />
         </div>
       </Router>
     );
